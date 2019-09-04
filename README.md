@@ -46,11 +46,11 @@ The accuracy of χ1 is defined as the percentage of residues whose predicted χ1
 
 The performance of different side-chain modeling methods on different non-native test sets. Three non-native test sets (each containing 437 proteins) are chosen for demonstration. Their corresponding average RMSD (aRMSD) values from the native structures are 0.93Å, 1.88Å and 3.68Å, respectively. Only the accuracy of χ1 is used as indicator. 
 
-![fig1](./images/fig1.png?raw=true "fig1")
+<img src="./images/figure1.png" width="50%" height="50%"/>
 
 The performance of OPUS-Rota2 and OPUS-Rota2i on 10 different non-native test sets as a function of aRMSD.
 
-![fig2](./images/fig1.png?raw=true "fig2")
+<img src="./images/figure2.png" width="50%" height="50%"/>
 
 ## Reference 
 ```bibtex
