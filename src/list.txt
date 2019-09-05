@@ -1,0 +1,3 @@
+rota2_input/153l.pdb
+rota2_input/1a7s.pdb
+rota2_input/1a8q.pdb
