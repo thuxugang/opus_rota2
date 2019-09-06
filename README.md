@@ -62,7 +62,7 @@ Docker 18.09.7
 
 1. Download OPUS-Rota2 docker image.
 
-   The docker image we used is hosted on [Baidu Drive](https://pan.baidu.com/s/1NQ3mlVN2MqSbT8KdAK6OqQ) with password `jk29`.
+   The docker image we used is hosted on [Baidu Drive](https://pan.baidu.com/s/1aS4xWAJKZLcoz-noaFcm4Q) with password `u3ti`.
 
 2. Docker image preparation.
    ```
@@ -77,7 +77,7 @@ Docker 18.09.7
    nohup redis-server redis.conf > nohup.out &
    ```   
 
-   This will take approximately 1min until "The server is now ready to accept connections on port 6379" appeared in *nohup.out*. 
+   This will take approximately 1min until *"The server is now ready to accept connections on port 6379"* appeared in *nohup.out*. 
  
 4. Run OPUS-Rota2.
 
@@ -88,7 +88,7 @@ Docker 18.09.7
 The bottleneck of OPUS-Rota2's speed is the database query efficiency. Therefore, we use Redis for higher speed. However, since the database like MongoDB use cache to accelerate the query efficiency for repetitive keys, if you build the specific protein side chain 
 recursively (maybe this kind of circumstance is the majority), the influence of database query efficiency would be reduced.
 
-***If you want to include OPUS-Rota2 in your code, please download the source code and complie it. The source code is under the source branch.***
+***If you want to include OPUS-Rota2 in your code, please download the source code and complie it. The source code is under the [source branch](https://github.com/thuxugang/opus_rota2/tree/src).***
 
 ## To Do List
 - [ ] Build on-line lookup tables server and remove the database dependcy in stand-alone version.
