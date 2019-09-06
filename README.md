@@ -58,7 +58,7 @@ hiredis
    redis-server redis.conf
    ```   
 
-   This will take approximately 1min until "The server is now ready to accept connections on port 6379" appeared in the console. 
+   This will take approximately 1min until *"The server is now ready to accept connections on port 6379"* appeared in the console. 
  
 4. Run OPUS-Rota2.
 
