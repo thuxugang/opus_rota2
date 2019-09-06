@@ -88,7 +88,7 @@ Docker 18.09.7
 The bottleneck of OPUS-Rota2's speed is the database query efficiency. Therefore, we use Redis for higher speed. However, since the database like MongoDB use cache to accelerate the query efficiency for repetitive keys, if you build the specific protein side chain 
 recursively (maybe this kind of circumstance is the majority), the influence of database query efficiency would be reduced.
 
-***If you want to include OPUS-Rota2 in your code, please download the source code and complie it. The source code is under the [source branch](https://github.com/thuxugang/opus_rota2/tree/src).***
+***If you want to include OPUS-Rota2 in your code, please download the source code and compile it. The source code is under the [source branch](https://github.com/thuxugang/opus_rota2/tree/src).***
 
 ## To Do List
 - [ ] Build on-line lookup tables server and remove the database dependcy in stand-alone version.
