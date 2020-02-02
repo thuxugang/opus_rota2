@@ -2,6 +2,10 @@
 
 Side-chain modeling plays a critical role in protein structure prediction. However, in many current methods, balancing the speed and accuracy is still challenging. We introduce a new side-chain modeling method, OPUS-Rota2, which is tested on both 65-protein test set (DB65) in OPUS-Rota paper and 379-protein test set (DB379) in SCWRL4 paper. If the main chain is native, OPUS-Rota2 is more accurate than OPUS-Rota, SCWRL4 and OSCAR-star, but slightly less accurate than OSCAR-o. And if the main chain is non-native, OPUS-Rota2 is more accurate than any other method. Moreover, OPUS-Rota2 is significantly faster than any other method, in particular two orders of magnitude faster than OSCAR-o. Thus the combination of higher accuracy and speed of OPUS-Rota2 in modeling side chains on both native and non-native main chains makes OPUS-Rota2 a very useful tool in protein structure modeling.
 
+## OPUS-DASF
+
+The information of OPUS-DASF can be found [here](https://github.com/thuxugang/opus_csf).
+
 ## Test Sets
 
 ### Native Main Chain
@@ -98,7 +102,7 @@ recursively (maybe this kind of circumstance is the majority), the influence of 
 @article{xu2019opus,
   title={OPUS-Rota2: An Improved Fast and Accurate Side-chain Modeling Method},
   author={Xu, Gang and Ma, Tianqi and Du, Junqing and Wang, Qinghua and Ma, Jianpeng},
-  journal={Journal of chemical theory and computation},
+  journal={Journal of Chemical Theory and Computation},
   year={2019},
   publisher={ACS Publications}
 }
