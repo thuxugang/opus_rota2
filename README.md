@@ -20,7 +20,7 @@ To evaluate the performance of different side-chain modeling methods when the co
 
 ### Download
 
-The test sets we used are hosted on [Baidu Drive](https://pan.baidu.com/s/1NQ3mlVN2MqSbT8KdAK6OqQ) with password `jk29`.
+The test sets we used are hosted on [Baidu Drive](https://pan.baidu.com/s/1NQ3mlVN2MqSbT8KdAK6OqQ) with password `jk29`. Also, they can be downloaded directly from [Here](http://ma-lab.rice.edu/dist/rota2_test_sets.zip).
 
 ## Performance
 
@@ -66,7 +66,7 @@ Docker 18.09.7
 
 1. Download OPUS-Rota2 docker image.
 
-   The docker image we used is hosted on [Baidu Drive](https://pan.baidu.com/s/1aS4xWAJKZLcoz-noaFcm4Q) with password `u3ti`.
+   The docker image we used is hosted on [Baidu Drive](https://pan.baidu.com/s/1aS4xWAJKZLcoz-noaFcm4Q) with password `u3ti`. Also, it can be downloaded directly from [Here](http://ma-lab.rice.edu/dist/opus_rota2_docker.zip).
 
 2. Docker image preparation.
    ```
