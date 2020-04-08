@@ -23,7 +23,7 @@ hiredis
       sudo make install
       ```
 
-   2. Download OPUS-DASF lookup tables and rotamer library data, which are hosted on [Baidu Drive](https://pan.baidu.com/s/1XxYz3HpYdpv_DPcZBsMgQA) with password `9dqu`. Unzip *dump.zip* and put it into *redis-3.2.12*.
+   2. Download OPUS-DASF lookup tables and rotamer library data, which are hosted on [Baidu Drive](https://pan.baidu.com/s/1XxYz3HpYdpv_DPcZBsMgQA) with password `9dqu`. Also, they can be downloaded directly from [Here](http://ma-lab.rice.edu/dist/rota2_db.zip). Unzip *dump.zip* and put it into *redis-3.2.12*.
 
 
 2. Install eigen3
